@@ -1,0 +1,14 @@
+{
+  "name": "serverless-alexa-skill",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "repository": "git@github.com:sbstjn/serverless-alexa-skill.git",
+  "author": "Sebastian Müller <mail@sbstjn.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "sls deploy"
+  },
+  "dependencies": {
+    "serverless": "^1.10.1"
+  }
+}

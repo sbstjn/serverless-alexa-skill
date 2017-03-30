@@ -1,8 +1,0 @@
-{
-  "name": "alexa-example",
-  "description": "Example skill for Amazon Echo and Alexa",
-  "memory": 128,
-  "timeout": 5,
-  "role": "arn:aws:iam::AWS_ACCOUNT_ID:role/alexa-example_lambda_function",
-  "environment": {}
-}

@@ -1,0 +1,17 @@
+service: serverless-alexa-skill
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: dev
+  region: eu-west-1
+  
+functions:
+  handler:
+    handler: handler.answer
+    events:
+      - alexaSkill
+
+package:
+  exclude:
+    - node_modules/**
